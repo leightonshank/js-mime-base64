@@ -1,17 +1,20 @@
-/* MIME_Base64.js - Class used to encode and decode strings into and from    */
-/*             the base 64 encoding specified in RFC 2045 MIME (Multipurpose */
-/*             Internet Mail Extensions).                                    */
-/* Author: Leighton Shank                                         2/10/2006  */
-/* Copyright: (c)2006 Leighton Shank, all rights reserved.                   */
-
-/* usage:                                                                    */
-/*     var encoded_string = Base64.encode(string);                           */
-/*     var decoded_string = Base64.decode(encoded_string);                   */
-/* notes:                                                                    */
-/*     The Base64.encode function also takes an optional second parameter,   */
-/*     specifying the end-of-line character to be used when breaking the     */
-/*     encoded string into lines of 76 characters, per RFC specifications.   */
-/*     By default, the newline '\n' character will be used.                  */
+/* js-mime-base64.js
+ * Class used to encode and decode strings into and from
+ * the base 64 encoding specified in RFC 2045 MIME (Multipurpose
+ * Internet Mail Extensions).                                    
+ * Author: Leighton Shank
+ * Date: 2/10/2006  
+ * Copyright: (c)2006-2012 Leighton Shank, all rights reserved.                   
+ *
+ * usage:                                                                    
+ *     var encoded_string = Base64.encode(string);                           
+ *     var decoded_string = Base64.decode(encoded_string);                   
+ * notes:                                                                    
+ *     The Base64.encode function also takes an optional second parameter,   
+ *     specifying the end-of-line character to be used when breaking the     
+ *     encoded string into lines of 76 characters, per RFC specifications.   
+ *     By default, the newline '\n' character will be used.                  
+ */
 
 function Base64() {}
 new Base64();
